@@ -68,80 +68,45 @@ maze-runner-ai/
 └── .gitignore # Ignore cache and temp files
 ---
 
-## ⚙️ Installation
-1. Clone the repo:  
-```bash
-git clone <your-github-url>
-cd maze-runner-ai
-Install dependencies:
-
-bash
-Copy code
-pip install numpy matplotlib
-Optional: For interactive visualizations, install pygame:
-
-bash
-Copy code
-pip install pygame
-🚀 Usage
-Run the Jupyter Notebook
-
-bash
-Copy code
-jupyter notebook notebooks/pathfinding_demo.ipynb
-Generate a maze and solve using algorithms
-
-python
-Copy code
-from scripts.maze_generator import generate_maze
-from scripts.pathfinding_algorithms import dfs_backtracking, a_star
-from scripts.visualizer import visualize_maze
-
-# Generate a 15x15 maze
-maze = generate_maze(rows=15, cols=15, obstacle_prob=0.2)
-
-# Solve using DFS
-path_dfs = dfs_backtracking(maze)
-visualize_maze(maze, path_dfs)
-
-# Solve using A* Algorithm
-path_astar = a_star(maze)
-visualize_maze(maze, path_astar)
-Compare algorithms, visualize multiple paths, and experiment with multi-agent setups.
-
 🎓 Learning Outcomes
+
 By completing this project, you will:
 
-Master DFS, BFS, Backtracking, A, and Dijkstra* algorithms.
+✅ Master DFS, BFS, Backtracking, A*, and Dijkstra algorithms.
 
-Understand recursion, graph traversal, and heuristics.
+✅ Understand recursion, graph traversal, and heuristics.
 
-Learn Python data structures, algorithm optimization, and parallel programming.
+✅ Learn Python data structures, algorithm optimization, and parallel programming.
 
-Gain experience in visualizing complex data and algorithmic processes.
+✅ Gain experience in visualizing complex data and algorithmic processes.
 
 🔮 Future Extensions
+
 Implement dynamic obstacles and real-time path updates.
 
 Optimize for multi-agent pathfinding.
 
-Add interactive GUI with Pygame for a game-like experience.
+Add an interactive GUI with Pygame for a game-like experience.
 
-Benchmark algorithms with large grids and compare runtime & efficiency.
+Benchmark algorithms with large grids and compare performance.
 
 Integrate with robotic path planning or AI simulations.
 
 🎬 Demo / GIF
+
 You can enhance your README by adding a small GIF showing the maze being solved:
 
-markdown
-Copy code
 ![Maze Solving Demo](docs/maze_demo.gif)
-Create a GIF using Matplotlib animation or Pygame, save it in docs/, and reference it here.
+
+
+Create a GIF using Matplotlib animation or Pygame.
+
+Save it in docs/ and reference it above.
 
 This makes the repo visually interactive and portfolio-ready.
 
 💡 Inspiration
+
 This project combines algorithmic rigor with visual exploration, making it ideal for:
 
 Portfolio showcase
@@ -153,7 +118,5 @@ Experimenting with AI pathfinding concepts
 Preparing for robotics, AI simulations, or game development
 
 📄 License
+
 This project is licensed under the MIT License.
-
----
-
