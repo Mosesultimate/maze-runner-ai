@@ -19,6 +19,9 @@ This project showcases **Python algorithmic mastery, recursion, backtracking, A\
 6. [Usage](#usage)  
 7. [Learning Outcomes](#learning-outcomes)  
 8. [Future Extensions](#future-extensions)  
+9. [Demo / GIF](#demo--gif)  
+10. [Inspiration](#inspiration)  
+11. [License](#license)  
 
 ---
 
@@ -36,7 +39,7 @@ Capabilities include:
 ## ⚡ Features
 - 🎲 **Random Maze/Grid Generation** – Adjustable size and obstacle probability.  
 - 🧠 **Multiple Pathfinding Algorithms** – DFS, BFS, Backtracking, A*, Dijkstra.  
-- 🎯 **Heuristic Optimization** – Efficient pathfinding with A*.  
+- 🎯 **Heuristic Optimization** – Efficient shortest path with A*.  
 - 📊 **Visualization & Animation** – Watch algorithms solve the maze in real-time.  
 - ⚙️ **Parallel Processing** – Solve multiple mazes or agents simultaneously.  
 - 🚀 **Extensible** – Dynamic obstacles, weighted grids, and multi-agent environments.
@@ -63,10 +66,6 @@ maze-runner-ai/
 ├── docs/ # Project notes and explanations
 ├── README.md # Project overview & instructions
 └── .gitignore # Ignore cache and temp files
-
-yaml
-Copy code
-
 ---
 
 ## ⚙️ Installation
@@ -79,7 +78,7 @@ Install dependencies:
 bash
 Copy code
 pip install numpy matplotlib
-Optional: For advanced visualization and interactivity, install pygame:
+Optional: For interactive visualizations, install pygame:
 
 bash
 Copy code
@@ -132,5 +131,29 @@ Benchmark algorithms with large grids and compare runtime & efficiency.
 
 Integrate with robotic path planning or AI simulations.
 
+🎬 Demo / GIF
+You can enhance your README by adding a small GIF showing the maze being solved:
+
+markdown
+Copy code
+![Maze Solving Demo](docs/maze_demo.gif)
+Create a GIF using Matplotlib animation or Pygame, save it in docs/, and reference it here.
+
+This makes the repo visually interactive and portfolio-ready.
+
 💡 Inspiration
-This project blends algorithmic rigor with visual exploration, making it ideal for portfolio showcase, learning advanced Python techniques, and experimenting with AI pathfinding concepts.
+This project combines algorithmic rigor with visual exploration, making it ideal for:
+
+Portfolio showcase
+
+Learning advanced Python techniques
+
+Experimenting with AI pathfinding concepts
+
+Preparing for robotics, AI simulations, or game development
+
+📄 License
+This project is licensed under the MIT License.
+
+---
+
